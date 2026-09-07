@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (viewport 108: center 54, radius ~30) -->
+    <!-- Water Drop Background Shadow / Glow -->
+    <path
+        android:fillColor="#33A3E635"
+        android:pathData="M54,23 C54,23 37,45 37,58 C37,67.4 44.6,75 54,75 C63.4,75 71,67.4 71,58 C71,45 54,23 54,23 Z" />
+    <!-- Cacao Leaf Left -->
+    <path
+        android:fillColor="#A7F3D0"
+        android:pathData="M54,68 C45,67 36,58 36,46 C45,46 53,53 54,68 Z" />
+    <!-- Cacao Leaf Right -->
+    <path
+        android:fillColor="#6EE7B7"
+        android:pathData="M54,68 C63,67 72,58 72,46 C63,46 55,53 54,68 Z" />
+    <!-- Water Droplet Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,29 C54,29 42,46 42,56 C42,62.6 47.4,68 54,68 C60.6,68 66,62.6 66,56 C66,46 54,29 54,29 Z" />
+    <!-- Leaf Stem / Seed Center Detail -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M54,44 C53,49 53,58 54,64 C55,58 55,49 54,44 Z" />
+    <!-- Water ripples base (irrigation / pump wave) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M38,79 C43,76.5 48,76.5 54,78 C60,79.5 65,79.5 70,77" />
+    <path
+        android:strokeColor="#86EFAC"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,84 C46,82.5 50,82.5 54,83.5 C58,84.5 62,84.5 66,83" />
+</vector>

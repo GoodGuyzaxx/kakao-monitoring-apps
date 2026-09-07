@@ -1,0 +1,6 @@
+{
+  "name": "Monitoring Kakao",
+  "description": "Sistem monitoring sensor suhu, kelembapan tanah, dan kontrol pompa irigasi tanaman kakao berbasis ESP32 dan Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
