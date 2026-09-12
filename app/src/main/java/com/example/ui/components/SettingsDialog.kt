@@ -402,7 +402,7 @@ fun SettingsDialog(
             Spacer(modifier = Modifier.height(6.dp))
             Text(
               text =
-                "• DHT22 DATA: GPIO4 (3.3V)\n• Soil Sensor AOUT: GPIO34 (3.3V Max)\n• Relay IN: GPIO26 (5V/GND bersama)\n• Pompa: Catu daya 12V tersendiri lewat COM-NO",
+                "• DHT22 DATA: GPI13 (3.3V)\n• Soil Sensor AOUT: GPIO34 (3.3V Max)\n• Relay IN: GPIO26 (5V/GND bersama)\n• Pompa: Catu daya 12V tersendiri lewat COM-NO",
               style =
                 MaterialTheme.typography.bodySmall.copy(
                   fontSize = 11.sp,

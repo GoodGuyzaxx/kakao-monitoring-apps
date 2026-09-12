@@ -155,24 +155,6 @@ fun CacaoDashboardScreen(
           )
         }
       }
-
-      // Clean, Minimal Footer
-      item {
-        Box(
-          modifier = Modifier.fillMaxWidth().padding(vertical = 12.dp),
-          contentAlignment = Alignment.Center,
-        ) {
-          Text(
-            text = "ESP32 GPIO26 • Histeresis 35%-55% • Proteksi Pompa 3 Menit",
-            style =
-              MaterialTheme.typography.bodySmall.copy(
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                fontSize = 11.sp,
-              ),
-          )
-        }
-      }
-
       item { Spacer(modifier = Modifier.height(16.dp)) }
     }
   }

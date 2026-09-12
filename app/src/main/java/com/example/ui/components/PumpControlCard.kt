@@ -245,12 +245,6 @@ fun PumpControlCard(
                   style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold),
                 )
               }
-
-              Text(
-                text = "• Histeresis 20% •",
-                style = MaterialTheme.typography.bodySmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant, fontSize = 11.sp),
-              )
-
               Column(horizontalAlignment = Alignment.End) {
                 Text(
                   text = "Ambang Mati",
@@ -320,7 +314,7 @@ fun PumpControlCard(
 
           Spacer(modifier = Modifier.height(6.dp))
           Text(
-            text = "ESP32 membaca perubahan manual tiap ~5 detik.",
+            text = "membaca perubahan manual tiap ~5 detik.",
             style =
               MaterialTheme.typography.bodySmall.copy(
                 fontSize = 11.sp,
@@ -334,7 +328,7 @@ fun PumpControlCard(
       // Safety timer (Only shown when pump is actively running)
       if (isPumpOn) {
         Spacer(modifier = Modifier.height(12.dp))
-        val maxSeconds = 180f
+        val maxSeconds = 120f
         val elapsed =
           if (pumpData.elapsedSeconds > 0) pumpData.elapsedSeconds
           else if (pumpData.changedAtEpoch > 0) {
